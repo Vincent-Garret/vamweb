@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
@@ -127,6 +130,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1d8rLI5BMFBTqEFmO3h4XdIzON2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -135,7 +139,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../librairie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -155,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591817503575</updated>
-      <workItem from="1591817505768" duration="8515000" />
+      <workItem from="1591817505768" duration="9003000" />
     </task>
     <servers />
   </component>
@@ -163,10 +167,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-760" y="169" key="FileChooserDialogImpl" timestamp="1591818394409">
+    <state x="-760" y="169" key="FileChooserDialogImpl" timestamp="1591863705027">
       <screen x="-1080" y="-526" width="1080" height="1880" />
     </state>
-    <state x="-760" y="169" key="FileChooserDialogImpl/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591818394409" />
+    <state x="-760" y="169" key="FileChooserDialogImpl/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591863705027" />
     <state x="-672" y="308" key="Github.ShareDialog" timestamp="1591863200149">
       <screen x="-1080" y="-526" width="1080" height="1880" />
     </state>
