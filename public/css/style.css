@@ -1,0 +1,59 @@
+.typing {
+    height: 75vh;
+    display: flex;
+    /* Remove horizontal 'justify-content' center if you want the base text not to move */
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.typing h1{
+    font-size: 60px;
+}
+
+
+/* ADD CURSOR */
+
+.txt-type>.txt {
+    border-right: 0.08rem solid #fff;
+    padding-right: 2px;
+    /* Animating the cursor */
+    animation: blink 0.6s infinite;
+}
+
+
+/* ANIMATION */
+
+@keyframes blink {
+    0% {
+        border-right: 0.08rem solid rgba(255, 255, 255, 1);
+    }
+    100% {
+        border-right: 0.08rem solid rgba(255, 255, 255, 0.2);
+    }
+}
+
+.bande {
+    height: 25vh;
+}
+
+header {
+    background-image: url("../img/headerBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header li {
+    list-style-type: none;
+    margin-right: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul a{
+    color: black;
+}
+
+ul a:hover{
+    color:black;
+}
