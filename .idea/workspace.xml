@@ -138,6 +138,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -167,6 +168,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-917" y="-78" key="CommitChangelistDialog2" timestamp="1591863732081">
+      <screen x="-1080" y="-526" width="1080" height="1880" />
+    </state>
+    <state x="-917" y="-78" key="CommitChangelistDialog2/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591863732081" />
     <state x="-760" y="169" key="FileChooserDialogImpl" timestamp="1591863705027">
       <screen x="-1080" y="-526" width="1080" height="1880" />
     </state>
@@ -179,6 +184,10 @@
       <screen x="-1080" y="-526" width="1080" height="1880" />
     </state>
     <state x="-733" y="212" key="NewPhpClassDialog/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591817669253" />
+    <state x="-948" y="128" key="Vcs.Push.Dialog.v2" timestamp="1591863751264">
+      <screen x="-1080" y="-526" width="1080" height="1880" />
+    </state>
+    <state x="-948" y="128" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591863751264" />
     <state x="-919" y="-65" width="758" height="957" key="find.popup" timestamp="1591819960173">
       <screen x="-1080" y="-526" width="1080" height="1880" />
     </state>
