@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "gothic";
+    src: url("../fonts/gothic/gothic.woff") format("woff"),
+    url("../fonts/gothic/gothic.ttf") format("ttf");
+}
