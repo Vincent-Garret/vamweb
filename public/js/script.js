@@ -177,7 +177,7 @@ let linkPoints = function(point1, hubs){
             drawArea.stroke();
         }
     }
-}
+};
 
 // Create the particlas array then call the loop with requestAnimationFrame
 function setup(){
@@ -211,3 +211,20 @@ const drawArea = canvasBody.getContext("2d");
 let delay = 200, tid;
 resizeReset();
 setup();
+
+//COLOR STRIP
+
+function colorChange(){
+    const link = document.getElementsByClassName('change');
+    const  main = document.querySelector('.main');
+    for (i = 0; i < 3; i++){
+        if (document.body.scrollTop >= 0){
+            link[i].classList.add('changeColor');
+        }
+    }
+    let scrollFromTop = window.scrollTop;
+
+    console.log(strip.scrollTop)
+}
+
+colorChange();

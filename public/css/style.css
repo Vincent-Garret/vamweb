@@ -4,12 +4,11 @@ body{
     font-family: gothic, serif;
 }
 .typing {
-    height: 75vh;
+    height: 100vh;
     display: flex;
     /* Remove horizontal 'justify-content' center if you want the base text not to move */
     justify-content: center;
     align-items: center;
-    padding-bottom: 10%;
 }
 
 .typing h1{
@@ -39,14 +38,17 @@ body{
     }
 }
 
-.bande {
+.strip {
     height: 25vh;
+    position: fixed;
+    width: 100%;
 }
 
 header {
     background-image: url("../img/header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 header li {
@@ -56,13 +58,6 @@ header li {
     font-weight: bold;
 }
 
-ul a{
-    color: black;
-}
-
-ul a:hover{
-    color:black;
-}
 
 
 #canvas {
@@ -112,8 +107,8 @@ ul a:hover{
     content: '';
     right: 0;
     top: 0;
-    border-top: 3px solid #3E8914;
-    border-right: 3px solid #2E640F;
+    border-top: 3px solid #3E32ED;
+    border-right: 3px solid #3E32ED;
     transform: translate(-100%, 50%);
 }
 
@@ -121,8 +116,8 @@ ul a:hover{
     content: '';
     left: 0;
     bottom: 0;
-    border-bottom: 3px solid #2E640F;
-    border-left: 3px solid #3E8914;
+    border-bottom: 3px solid #3E32ED;
+    border-left: 3px solid #3E32ED;
     transform: translate(100%, -50%)
 }
 
@@ -133,5 +128,9 @@ ul a:hover{
 }
 
 .nav a:hover {
-    color: #3DA35D;
+    color: #3E32ED;
+}
+
+.changeColor{
+    color: green !important;
 }
