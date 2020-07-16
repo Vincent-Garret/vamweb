@@ -206,7 +206,7 @@ function loop(){
 }
 
 // Set the canvas, drawarea, delay and call the functions
-const canvasBody = document.getElementById("canvas")
+const canvasBody = document.getElementById("canvas");
 const drawArea = canvasBody.getContext("2d");
 let delay = 200, tid;
 resizeReset();
@@ -214,17 +214,34 @@ setup();
 
 //COLOR STRIP
 
-function colorChange(){
-    const link = document.getElementsByClassName('change');
-    const  main = document.querySelector('.main');
-    for (i = 0; i < 3; i++){
-        if (document.body.scrollTop >= 0){
-            link[i].classList.add('changeColor');
-        }
-    }
-    let scrollFromTop = window.scrollTop;
 
-    console.log(strip.scrollTop)
+
+let  main = document.getElementById("main");
+function findPos(elem) {
+    let box = elem.getBoundingClientRect(),
+        offset   = box.top + window.pageYOffset;
+
+    alert('Element is ' + offset + ' vertical pixels from <body>');
+    console.log(box.top);
+    return offset;
 }
 
-colorChange();
+mainPos = findPos(main);
+
+window.onscroll = function colorChange(){
+    const link = document.getElementsByClassName('change');
+
+    for (i = 0; i < 3; i++){
+        if (document.documentElement.scrollTop >= mainPos){
+            link[i].classList.add('changeColor');
+        }
+        if (document.documentElement.scrollTop < mainPos){
+            link[i].classList.remove('changeColor');
+        }
+    }
+    let scrollFromTop = document.documentElement.scrollTop;
+
+    console.log(scrollFromTop)
+};
+
+console.log(mainPos);
