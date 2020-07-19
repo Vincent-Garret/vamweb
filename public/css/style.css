@@ -40,9 +40,10 @@ body{
 }
 
 .strip {
-    height: 25vh;
+    height: 20vh;
     position: fixed;
     width: 100%;
+    z-index: 250;
 }
 
 header {
@@ -130,23 +131,34 @@ header li {
     color: black !important;
 }
 
-section h1, p{
+section h1, p, h2{
     text-align: center;
+}
+
+.agence, .service, .choisir{
+    transform-origin: left;
+    transform: skew(0,-2deg);
+    padding: 40px 0;
 }
 
 .agence{
     background-color: #419bf0;
     padding: 75px 0;
-    transform-origin: left;
-    transform: skew(0,-2deg);
 }
+
+.service{
+    background-color: #5eb5e0;
+}
+
+.choisir{
+    background-color: #73b3ff;
+}
+
+
 .inner{
     transform: skew(0,2deg);
 }
 
-.strip{
-    z-index: 250;
-}
 
 svg{
     width: 50px;
