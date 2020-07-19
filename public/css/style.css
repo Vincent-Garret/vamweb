@@ -61,13 +61,6 @@ header li {
 }
 
 
-
-#canvas {
-    position: absolute;
-    display: block;
-    z-index: 10;
-}
-
 /* Border Hover */
 
 .nav {
@@ -134,5 +127,44 @@ header li {
 }
 
 .changeColor{
-    color: green !important;
+    color: black !important;
+}
+
+section h1, p{
+    text-align: center;
+}
+
+.agence{
+    background-color: #419bf0;
+    padding: 75px 0;
+    transform-origin: left;
+    transform: skew(0,-2deg);
+}
+.inner{
+    transform: skew(0,2deg);
+}
+
+.strip{
+    z-index: 250;
+}
+
+svg{
+    width: 50px;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.list li{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+hr{
+    width: 40%;
+    border-color: black;
 }
