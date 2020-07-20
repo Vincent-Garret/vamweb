@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: gothic, serif;
+    background-color: #419bf0;
+
 }
 .typing {
     height: 100vh;
@@ -151,7 +153,7 @@ section h1, p, h2{
 }
 
 .choisir{
-    background-color: #73b3ff;
+    background-color: #419bf0;
 }
 
 
@@ -179,4 +181,18 @@ svg{
 hr{
     width: 40%;
     border-color: black;
+}
+
+.footerList{
+    list-style-type: none;
+    text-align: center;
+}
+
+.footerList span{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+footer{
+    background-color: white;
 }

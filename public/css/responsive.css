@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1280px) {
+    /* For wide screens: xl*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+    /* For desktop: lg*/
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    /* For tablets: md */
+
+}
+
+@media only screen and (min-width: 260px) and (max-width: 576px) {
+    /* For mobile: sm*/
+    .typing h1{
+        font-size: 45px!important;
+    }
+
+}
+
+@media only screen and (max-width: 259px) {
+    /* For watch: */
+}

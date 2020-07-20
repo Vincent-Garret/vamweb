@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="FR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/burger.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
     <title>VAMweb</title>
 </head>
@@ -14,14 +16,17 @@
 <header class="align-items-center">
     <div class="container-fluid px-0 mx-0">
         <div class="strip row justify-content-between align-items-center px-0 mx-0">
-            <div class="col-2">
+            <div class="col-md-2 col-4">
                 <img src="img/logoWhite.png " alt=" " class="img-fluid logo" id="logo">
             </div>
-            <ul class="col-6 row justify-content-around px-0 mx-0 nav">
+            <ul class="d-none d-md-flex col-md-6 row justify-content-around px-0 mx-0 nav">
                 <li><a href="" class="change">Accueil</a></li>
                 <li><a href="" class="change">Services</a></li>
                 <li><a href="" class="change">Contacts</a></li>
             </ul>
+            <div class="menu-btn d-md-none">
+                <div class="menu-btn__burger"></div>
+            </div>
         </div>
     </div>
     <div class="typing px-0 align-items-center">
@@ -67,6 +72,7 @@
         <div class="inner">
             <h1>Nos services</h1>
             <p><span>une agence web pour vous</span></p>
+            <hr/>
             <h2>Développement web</h2>
                 <p>Développez un site pour votre entreprise avec les meilleures technologies du web, nous vous proposons de créer un site à votre image en integrant vos idées et votre talent.</p>
             <h2>Conception / UX</h2>
@@ -92,8 +98,16 @@
         </div>
     </section>
 </main>
-<footer>
-
+<footer class="d-flex flex-column align-items-center justify-content-center">
+        <div class="col-3 imgFooter">
+            <img src="img/logoBlack.png" alt="" class="img-fluid">
+        </div>
+    <ul class="footerList px-0"><span>Plan du site</span>
+        <li><a href="">Agence Web Bordeaux</a></li>
+        <li><a href="">Nos services</a></li>
+        <li><a href="">Contacts</a></li>
+        <li><a href="">Mentions Légales</a></li>
+    </ul>
 </footer>
 <script type="text/javascript " src="js/script.js"></script>
 </body>

@@ -81,7 +81,7 @@ mainPos = findPos(main);
 
 window.onscroll = function colorChange(){
     const link = document.getElementsByClassName('change');
-    const nav = document.getElementsByClassName('nav');
+    const strip = document.getElementsByClassName('strip');
     let logo = document.getElementById('logo');
 
     for (i = 0; i < 3; i++){
@@ -99,4 +99,16 @@ window.onscroll = function colorChange(){
     console.log(scrollFromTop)
 };
 
-console.log(mainPos);
+//Burger
+
+const menuBtn = document.querySelector('.menu-btn');
+let menuOpen = false;
+menuBtn.addEventListener('click', () => {
+    if(!menuOpen) {
+        menuBtn.classList.add('open');
+        menuOpen = true;
+    } else {
+        menuBtn.classList.remove('open');
+        menuOpen = false;
+    }
+});
