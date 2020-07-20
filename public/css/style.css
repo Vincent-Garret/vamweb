@@ -42,7 +42,6 @@ body{
 }
 
 .strip {
-    height: 20vh;
     position: fixed;
     width: 100%;
     z-index: 250;
@@ -188,6 +187,10 @@ hr{
     text-align: center;
 }
 
+.footerList a{
+    color: black;
+}
+
 .footerList span{
     font-weight: bold;
     font-size: 26px;
@@ -195,4 +198,8 @@ hr{
 
 footer{
     background-color: white;
+}
+
+#strip{
+    height: 12vh;
 }

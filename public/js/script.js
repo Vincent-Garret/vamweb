@@ -81,20 +81,23 @@ mainPos = findPos(main);
 
 window.onscroll = function colorChange(){
     const link = document.getElementsByClassName('change');
-    const strip = document.getElementsByClassName('strip');
+    var strip = document.getElementById('strip');
     let logo = document.getElementById('logo');
 
     for (i = 0; i < 3; i++){
         if (document.documentElement.scrollTop >= (mainPos)){
             link[i].classList.add('changeColor');
             logo.src = "img/logoBlack.png";
+            strip.style.backgroundColor = '#FFFFFF';
         }
         if (document.documentElement.scrollTop < mainPos){
             link[i].classList.remove('changeColor');
             logo.src = 'img/logoWhite.png';
+            strip.style.backgroundColor = 'unset';
         }
     }
-    let scrollFromTop = document.documentElement.scrollTop;
+
+        let scrollFromTop = document.documentElement.scrollTop;
 
     console.log(scrollFromTop)
 };
