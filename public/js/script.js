@@ -81,7 +81,10 @@ mainPos = findPos(main);
 
 window.onscroll = function colorChange(){
     const link = document.getElementsByClassName('change');
-    var strip = document.getElementById('strip');
+    const strip = document.getElementById('strip');
+    const burger = document.getElementById('burger');
+    const before = document.getElementById('before');
+    const after = document.getElementById('after');
     let logo = document.getElementById('logo');
 
     for (i = 0; i < 3; i++){
@@ -89,11 +92,17 @@ window.onscroll = function colorChange(){
             link[i].classList.add('changeColor');
             logo.src = "img/logoBlack.png";
             strip.style.backgroundColor = '#FFFFFF';
+            burger.style.backgroundColor = 'black';
+            before.style.backgroundColor = 'black';
+            after.style.backgroundColor = 'black';
         }
         if (document.documentElement.scrollTop < mainPos){
             link[i].classList.remove('changeColor');
             logo.src = 'img/logoWhite.png';
             strip.style.backgroundColor = 'unset';
+            burger.style.backgroundColor = 'white';
+            before.style.backgroundColor = 'white';
+            after.style.backgroundColor = 'white';
         }
     }
 
