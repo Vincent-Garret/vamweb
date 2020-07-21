@@ -210,8 +210,9 @@ footer{
     height: 10vh;
 }
 
-.form h2{
+.form h2, h3{
     text-align: left;
+    margin-left: 50px;
 }
 
 .form input, textarea{

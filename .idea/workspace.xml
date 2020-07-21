@@ -178,7 +178,7 @@
       <workItem from="1594568606883" duration="6239000" />
       <workItem from="1594815745347" duration="7528000" />
       <workItem from="1594834140171" duration="3015000" />
-      <workItem from="1594913963973" duration="45256000" />
+      <workItem from="1594913963973" duration="46256000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1591863733957</created>
@@ -278,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595322772490</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary=" form css + scrollBar">
+      <created>1595324919767</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1595324919767</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,18 +299,19 @@
     <MESSAGE value="getBounding" />
     <MESSAGE value="fix css" />
     <MESSAGE value="contactForm" />
-    <option name="LAST_COMMIT_MESSAGE" value="contactForm" />
+    <MESSAGE value=" form css + scrollBar" />
+    <option name="LAST_COMMIT_MESSAGE" value=" form css + scrollBar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1595259604547">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595259604547" />
-    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1595322771288">
+    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1595324918539">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-917" y="-78" key="CommitChangelistDialog2/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591863804618" />
-    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595322771288" />
+    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595324918539" />
     <state x="405" y="238" key="FileChooserDialogImpl" timestamp="1595259217083">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -318,11 +326,11 @@
       <screen x="-1080" y="-526" width="1080" height="1880" />
     </state>
     <state x="-733" y="212" key="NewPhpClassDialog/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591817669253" />
-    <state x="167" y="186" key="Vcs.Push.Dialog.v2" timestamp="1595322792545">
+    <state x="167" y="186" key="Vcs.Push.Dialog.v2" timestamp="1595324954787">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-948" y="128" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591863812203" />
-    <state x="167" y="186" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595322792545" />
+    <state x="167" y="186" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595324954787" />
     <state x="359" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1594913979103">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
