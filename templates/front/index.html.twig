@@ -108,16 +108,16 @@
             <div class="col-md-6">
                 {{ form_start(contactForm, {'attr': {'class': 'd-flex flex-column align-items-center'}} ) }}
 
-                    {{ form_widget(contactForm.Name, {'attr' : {'class' : 'col-10 my-3', 'placeholder': 'Nom Prénom'}} ) }}
+                    {{ form_widget(contactForm.Name, {'attr' : {'class' : 'col-10 my-3 py-2', 'placeholder': 'Nom Prénom', 'style' : 'height:200'}} ) }}
                     {{ form_errors(contactForm.Name) }}
 
-                    {{ form_widget(contactForm.mail, {'attr' : {'class' : 'col-10 my-3', 'placeholder': 'Email'}} ) }}
+                    {{ form_widget(contactForm.mail, {'attr' : {'class' : 'col-10 my-3 py-2', 'placeholder': 'Email'}} ) }}
                     {{ form_errors(contactForm.mail) }}
 
-                    {{ form_widget(contactForm.telephone, {'attr' : {'class' : 'col-10 my-3', 'placeholder': 'Téléphone'}} ) }}
+                    {{ form_widget(contactForm.telephone, {'attr' : {'class' : 'col-10 my-3 py-2', 'placeholder': 'Téléphone'}} ) }}
                     {{ form_errors(contactForm.telephone) }}
 
-                    {{ form_widget(contactForm.message, {'attr' : {'class' : 'col-10 my-3', 'placeholder': 'Message'}} ) }}
+                    {{ form_widget(contactForm.message, {'attr' : {'class' : 'col-10 my-3 pb-5', 'placeholder': 'Message'}} ) }}
                     {{ form_errors(contactForm.message) }}
 
                     {{ form_label(contactForm.submit) }}
