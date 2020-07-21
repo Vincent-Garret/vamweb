@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: gothic, serif;
-    background-color: #419bf0;
+    background-color: #2b58e0;
+    color: white;
 
 }
 .typing {
@@ -11,6 +12,7 @@ body{
     /* Remove horizontal 'justify-content' center if you want the base text not to move */
     justify-content: center;
     align-items: center;
+    color: black;
 }
 
 .typing h1{
@@ -125,7 +127,7 @@ header li {
 }
 
 .nav a:hover {
-    color: #3E32ED;
+    color: #3E32ED!important;
 }
 
 .changeColor{
@@ -136,23 +138,27 @@ section h1, p, h2{
     text-align: center;
 }
 
-.agence, .service, .choisir{
+.agence, .service, .choisir, .form{
     transform-origin: left;
     transform: skew(0,-2deg);
     padding: 40px 0;
 }
 
 .agence{
-    background-color: #419bf0;
+    background-color: #2521f0;
     padding: 75px 0;
 }
 
 .service{
-    background-color: #5eb5e0;
+    background-color: #2b58e0;
 }
 
 .choisir{
-    background-color: #419bf0;
+    background-color: #2521f0;
+}
+
+.form{
+    background-color: #2b58e0;
 }
 
 
@@ -201,5 +207,9 @@ footer{
 }
 
 #strip{
-    height: 12vh;
+    height: 10vh;
+}
+
+.form h2{
+    text-align: left;
 }
