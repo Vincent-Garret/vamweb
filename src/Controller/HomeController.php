@@ -28,6 +28,8 @@ class HomeController extends AbstractController
     {
         $contact = new Contact();
         $contactForm = $this->createForm(ContactType::class, $contact);
+        $contactForm->handleRequest($request);
+
 
         if ($contactForm->isSubmitted() && $contactForm->isValid()) {
             // je persiste et je flush
