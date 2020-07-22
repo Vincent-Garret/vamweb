@@ -114,13 +114,16 @@ window.onscroll = function colorChange(){
 //Burger
 
 const menuBtn = document.querySelector('.menu-btn');
+const modal = document.querySelector('.modal');
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
     if(!menuOpen) {
         menuBtn.classList.add('open');
+        modal.classList.add('open-modal');
         menuOpen = true;
     } else {
         menuBtn.classList.remove('open');
+        modal.classList.remove('open-modal');
         menuOpen = false;
     }
 });

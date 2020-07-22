@@ -18,7 +18,9 @@
     .typing h1{
         font-size: 45px!important;
     }
-
+    .strip{
+        height: 12vh!important;
+    }
 }
 
 @media only screen and (max-width: 259px) {
