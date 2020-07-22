@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: gothic, serif;
-    background-color: #2b58e0;
+    background-color: #121799;
     color: white;
 
 }
@@ -145,20 +145,20 @@ section h1, p, h2{
 }
 
 .agence{
-    background-color: #2521f0;
+    background-color: #07093a;
     padding: 75px 0;
 }
 
 .service{
-    background-color: #2b58e0;
+    background-color: #121799;
 }
 
 .choisir{
-    background-color: #2521f0;
+    background-color: #07093a;
 }
 
 .form{
-    background-color: #2b58e0;
+    background-color: #121799;
 }
 
 
@@ -185,7 +185,7 @@ svg{
 
 hr{
     width: 40%;
-    border-color: black;
+    border-color: #FFFFFF;
 }
 
 .footerList{
@@ -204,10 +204,11 @@ hr{
 
 footer{
     background-color: white;
+    height: 100vh;
 }
 
 #strip{
-    height: 10vh;
+    height: 12vh;
 }
 
 .form h2, h3{
@@ -221,12 +222,12 @@ footer{
 }
 
 button{
-    Border : 1px solid white;
+    Border : 2px solid white;
     margin-top: 5px;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #2b58e0;
+    background-color: #121799;
     color: white;
     font-weight: bold;
 }
@@ -272,4 +273,23 @@ button{
 .modal li, .modal a{
     padding: 15% 30%;
     color: #FFFFFF;
+}
+
+.legal:hover{
+    cursor: pointer;
+}
+.legal{
+    color: black;
+}
+
+.open-legal{
+    display: block!important;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    border: 3px solid black;
+    border-radius: 8px;
 }

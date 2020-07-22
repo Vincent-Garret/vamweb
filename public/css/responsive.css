@@ -10,16 +10,18 @@
 
 @media only screen and (min-width: 576px) and (max-width: 992px) {
     /* For tablets: md */
-
+    .strip{
+        height: 14vh!important;
+    }
 }
 
 @media only screen and (min-width: 260px) and (max-width: 576px) {
     /* For mobile: sm*/
     .typing h1{
-        font-size: 45px!important;
+        font-size: 30px!important;
     }
     .strip{
-        height: 12vh!important;
+        height: 14vh!important;
     }
 }
 

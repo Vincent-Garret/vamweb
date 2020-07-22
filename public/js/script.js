@@ -111,7 +111,7 @@ window.onscroll = function colorChange(){
     console.log(scrollFromTop)
 };
 
-//Burger
+//Burger + Modal
 
 const menuBtn = document.querySelector('.menu-btn');
 const modal = document.querySelector('.modal');
@@ -126,4 +126,21 @@ menuBtn.addEventListener('click', () => {
         modal.classList.remove('open-modal');
         menuOpen = false;
     }
+});
+
+modal.addEventListener('click',() => {
+    if(menuOpen){
+        modal.classList.remove('open-modal');
+        menuBtn.classList.remove('open');
+    }
+});
+
+const legal = document.querySelector('.legal');
+const legal_modal = document.querySelector('.legal-modal');
+const close = document.querySelector('.close');
+legal.addEventListener('click',() => {
+    legal_modal.classList.add('open-legal');
+});
+close.addEventListener('click', () => {
+    legal_modal.classList.remove('open-legal');
 });
