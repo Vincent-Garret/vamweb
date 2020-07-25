@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeefc73c-a9c8-443d-858b-e083e3af0709" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vamweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vamweb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/font.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/front/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +182,7 @@
       <workItem from="1594834140171" duration="3015000" />
       <workItem from="1594913963973" duration="53772000" />
       <workItem from="1595430199876" duration="6274000" />
-      <workItem from="1595523425438" duration="13703000" />
+      <workItem from="1595523425438" duration="16402000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1591863733957</created>
@@ -325,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595437413453</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="css + font">
+      <created>1595703941664</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1595703941664</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,18 +340,19 @@
     <MESSAGE value="contactForm" />
     <MESSAGE value=" form css + scrollBar" />
     <MESSAGE value="modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="modal" />
+    <MESSAGE value="css + font" />
+    <option name="LAST_COMMIT_MESSAGE" value="css + font" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1595259604547">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595259604547" />
-    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1595437411591">
+    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1595703938163">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-917" y="-78" key="CommitChangelistDialog2/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591863804618" />
-    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595437411591" />
+    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595703938163" />
     <state x="405" y="238" key="FileChooserDialogImpl" timestamp="1595259217083">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -367,11 +367,11 @@
       <screen x="-1080" y="-526" width="1080" height="1880" />
     </state>
     <state x="-733" y="212" key="NewPhpClassDialog/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591817669253" />
-    <state x="167" y="186" key="Vcs.Push.Dialog.v2" timestamp="1595437416249">
+    <state x="167" y="186" key="Vcs.Push.Dialog.v2" timestamp="1595703964118">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-948" y="128" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591863812203" />
-    <state x="167" y="186" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595437416249" />
+    <state x="167" y="186" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595703964118" />
     <state x="359" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1595523444292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

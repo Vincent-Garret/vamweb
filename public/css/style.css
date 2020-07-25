@@ -83,6 +83,7 @@ header li {
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
+    letter-spacing: 0.1em;
 }
 
 .nav * {
@@ -146,7 +147,7 @@ header li {
     color: black !important;
 }
 
-h1, p, h2, h3{
+h1, p, h2, h3, h4{
     text-align: center;
 }
 
@@ -203,6 +204,7 @@ section hr{
 .footerList{
     list-style-type: none;
     text-align: center;
+    font-family: pillGothic, serif;
 }
 
 .footerList a{
@@ -288,6 +290,7 @@ button{
 .modal li, .modal a{
     padding: 15% 30%;
     color: #FFFFFF;
+    letter-spacing: 0.1em;
 }
 
 .modal a:hover{
@@ -312,10 +315,17 @@ button{
     background-color: blue;
     border: 3px solid black;
     border-radius: 8px;
+    overflow: scroll;
+}
+
+.open-legal p{
+    text-align: left;
 }
 
 .footerList a:hover, .footerList li:hover{
     color: #ed5e62;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .form p{
@@ -326,4 +336,8 @@ button{
 
 .logo{
     width: 110%;
+}
+
+section p{
+    padding: 5px 2%;
 }
