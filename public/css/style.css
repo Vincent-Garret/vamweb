@@ -6,6 +6,17 @@ body{
     color: white;
 
 }
+
+h2, h3{
+    color: #ed5e62;
+    font-family: politica-bold, serif;
+}
+
+p{
+    font-family: pillGothic, serif;
+    font-size: 22px;
+}
+
 .typing {
     height: 100vh;
     display: flex;
@@ -26,7 +37,7 @@ body{
 .txt-type>.txt {
     border-right: 0.08rem solid #fff;
     padding-right: 2px;
-    color: white;
+    color: #ed5e62;
     /* Animating the cursor */
     animation: blink 0.6s infinite;
 }
@@ -47,6 +58,7 @@ body{
     position: fixed;
     width: 100%;
     z-index: 250;
+    font-family: pillGothic, serif;
 }
 
 header {
@@ -67,7 +79,7 @@ header li {
 
 /* Border Hover */
 
-.nav {
+.nav{
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
@@ -78,13 +90,13 @@ header li {
     transition: all .35s ease;
 }
 
-.nav li {
+.nav li{
     display: inline-block;
     list-style: outside none none;
     margin: .5em 1em;
 }
 
-.nav a {
+.nav a{
     padding: .5em .8em;
     color: white;
     position: relative;
@@ -106,8 +118,8 @@ header li {
     content: '';
     right: 0;
     top: 0;
-    border-top: 3px solid #3E32ED;
-    border-right: 3px solid #3E32ED;
+    border-top: 3px solid #ed5e62;
+    border-right: 3px solid #ed5e62;
     transform: translate(-100%, 50%);
 }
 
@@ -115,8 +127,8 @@ header li {
     content: '';
     left: 0;
     bottom: 0;
-    border-bottom: 3px solid #3E32ED;
-    border-left: 3px solid #3E32ED;
+    border-bottom: 3px solid #ed5e62;
+    border-left: 3px solid #ed5e62;
     transform: translate(100%, -50%)
 }
 
@@ -127,14 +139,14 @@ header li {
 }
 
 .nav a:hover {
-    color: #3E32ED!important;
+    color: #ed5e62!important;
 }
 
 .changeColor{
     color: black !important;
 }
 
-section h1, p, h2{
+h1, p, h2, h3{
     text-align: center;
 }
 
@@ -183,7 +195,7 @@ svg{
     font-size: 22px;
 }
 
-hr{
+section hr{
     width: 40%;
     border-color: #FFFFFF;
 }
@@ -211,9 +223,12 @@ footer{
     height: 12vh;
 }
 
-.form h2, h3{
+.form h2, .form h3{
     text-align: left;
     margin-left: 50px;
+}
+.form h3{
+    color: #FFFFFF;
 }
 
 .form input, textarea{
@@ -222,13 +237,13 @@ footer{
 }
 
 button{
-    Border : 2px solid white;
+    Border : 2px solid #ed5e62;
     margin-top: 5px;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     background-color: #121799;
-    color: white;
+    color: #ed5e62;
     font-weight: bold;
 }
 
@@ -275,6 +290,11 @@ button{
     color: #FFFFFF;
 }
 
+.modal a:hover{
+    color: #ed5e62;
+    text-decoration: none;
+}
+
 .legal:hover{
     cursor: pointer;
 }
@@ -292,4 +312,18 @@ button{
     background-color: blue;
     border: 3px solid black;
     border-radius: 8px;
+}
+
+.footerList a:hover, .footerList li:hover{
+    color: #ed5e62;
+}
+
+.form p{
+    padding-left: 20px;
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 110%;
 }

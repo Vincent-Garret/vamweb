@@ -17,7 +17,7 @@
     <div class="container-fluid px-0 mx-0" >
         <div class="strip row justify-content-between align-items-center px-0 mx-0" id="strip">
             <div class="col-lg-1 col-3 col-md-2">
-                <img src="img/logoWhite.png " alt=" " class="img-fluid logo" id="logo">
+                <img src="img/logoWhite.png " alt=" " class="logo" id="logo">
             </div>
             <ul class="d-none d-md-flex col-md-8 col-lg-5 row justify-content-around px-0 mx-0 nav">
                 <li><a href="" class="change">Accueil</a></li>
@@ -49,7 +49,7 @@
 <main class="mx-0 px-0" id="main">
     <section class="agence mx-0 px-0" id="agence">
         <div class="inner">
-            <h1>Agence Web Bordeaux</h1>
+            <h2>Agence Web Bordeaux</h2>
             <p><span>Notre expérience à votre service</span></p>
             <hr/>
             <p>VAMweb est une agence web spécialisé dans la création de sites web pour les TPE/PME et au plus proche de nos clients. Nous vous
@@ -79,16 +79,16 @@
     </section>
     <section class="service mx-0 px-0" id="service">
         <div class="inner">
-            <h1 class="pt-2">Nos services</h1>
+            <h2 class="pt-2">Nos services</h2>
             <p><span>une agence web pour vous accompagner dans votre transformation digitale</span></p>
             <hr/>
-            <h2>Développement web</h2>
+            <h3>Développement web</h3>
                 <p>Développez un site pour votre entreprise avec les meilleures technologies du web, nous vous proposons de créer un site à votre image en integrant vos idées et votre talent.</p>
-            <h2>Conception / UX</h2>
+            <h3>Conception / UX</h3>
                 <p>Améliorer votre site web avec l'UX design et définissez vos cibles, augmenter la performance et soyez "user friendly"</p>
-            <h2>Référencement naturel</h2>
+            <h3>Référencement naturel</h3>
                 <p>Augmenter votre visibilité web. Obtenez un bon positionnement de votre site internet. Optimisation techniques du code, des contenus pour être visible par vos clients</p>
-            <h2>Accompagnement sur les réseaux sociaux</h2>
+            <h3>Accompagnement sur les réseaux sociaux</h3>
                 <p>Accompagnement adapté à votre entreprise selon svos besoins. Optimisation de votre image</p>
         </div>
     </section>
@@ -132,6 +132,7 @@
 
                 {{ form_end(contactForm) }}
             </div>
+            <p>*Ou par téléphone au 06 58 11 14 97</p>
         </div>
     </section>
 </main>
@@ -146,8 +147,13 @@
         <li class="legal">Mentions Légales</li>
     </ul>
     <div class="legal-modal d-none">
-        <p>Mais qui li vraiment ca ? </p>
-        <button class="close">Fermer</button>
+        <div class="d-flex flex-column">
+            <p>Mais qui li vraiment ca ? </p>
+            <ul>
+                <li><p></p></li>
+            </ul>
+            <button class="close">Fermer</button>
+        </div>
     </div>
 </footer>
 <script type="text/javascript " src="js/script.js"></script>

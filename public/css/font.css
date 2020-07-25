@@ -3,3 +3,21 @@
     src: url("../fonts/gothic/gothic.woff") format("woff"),
     url("../fonts/gothic/gothic.ttf") format("ttf");
 }
+
+@font-face {
+    font-family: "politica";
+    src: url("../fonts/politica/Politica.woff") format("woff"),
+    url("../fonts/gothic/gothic.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "politica-bold";
+    src: url("../fonts/politica/Politica-Bold.woff") format("woff"),
+    url("../fonts/gothic/gothic.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "pillGothic";
+    src: url("../fonts/pillGothic300/pillGothic.woff") format("woff"),
+    url("../fonts/gothic/gothic.ttf") format("ttf");
+}
