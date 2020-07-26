@@ -4,7 +4,6 @@
 namespace App\Controller;
 
 
-use App\Repository\ReservationRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 use App\Entity\Contact;
@@ -37,7 +36,7 @@ class HomeController extends AbstractController
             // je persiste et je flush
             $entityManager->persist($contact);
             $entityManager->flush();
-            $mail = $contactForm['mail']->getData();
+            $mailContact = $contactForm['mail']->getData();
             $message = $contactForm['message']->getData();
             $name = $contactForm['Name']->getData();
             $phone = $contactForm['telephone']->getData();
@@ -45,23 +44,29 @@ class HomeController extends AbstractController
             // MAILER
             $mail = (new \Swift_Message('Votre demande de contact'))
                 ->setFrom('vincent@vamweb.fr')
-                ->setTo($mail)
+                ->setTo($mailContact)
                 ->setSubject('Votre demande de contact')
                 ->setBody($this->renderView('mail/frontMail.html.twig',
                     ['name' => $name,
+                        'mail' => $mailContact,
                         'phone' => $phone,
                         'message' => $message
-                    ]));
+                    ]),
+                    'text/html'
+                );
 
             $autoMail =( new \Swift_Message('Nouvelle demande de contact'))
-                ->setFrom('bistrotgirondin@gmail.com')
-                ->setTo('bistrotgirondin@gmail.com')
+                ->setFrom('vincent@vamweb.fr')
+                ->setTo('vincent@vamweb.fr')
                 ->setSubject('Nouvelle demande de contact')
                 ->setBody($this->renderView('mail/adminMail.html.twig',
                     ['name' => $name,
+                        'mail' => $mailContact,
                         'phone' => $phone,
                         'message' => $message
-                    ]));
+                    ]),
+                    'text/html'
+                );
 
             $this->addFlash('success', 'Votre demande de contact à bien été envoyée !');
             $mailer->send($mail);
