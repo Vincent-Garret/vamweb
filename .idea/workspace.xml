@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeefc73c-a9c8-443d-858b-e083e3af0709" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/mail/adminMail.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mail/frontMail.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,11 +155,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\vamweb" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\vamweb\vendor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\vamweb" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -184,7 +180,7 @@
       <workItem from="1594834140171" duration="3015000" />
       <workItem from="1594913963973" duration="53772000" />
       <workItem from="1595430199876" duration="6274000" />
-      <workItem from="1595523425438" duration="22336000" />
+      <workItem from="1595523425438" duration="29797000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1591863733957</created>
@@ -347,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595712542072</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="mailer">
+      <created>1595757724076</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1595757724076</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,11 +375,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595259604547" />
-    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1595712540454">
+    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1595757721976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-917" y="-78" key="CommitChangelistDialog2/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591863804618" />
-    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595712540454" />
+    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595757721976" />
     <state x="405" y="238" key="FileChooserDialogImpl" timestamp="1595259217083">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -391,11 +394,11 @@
       <screen x="-1080" y="-526" width="1080" height="1880" />
     </state>
     <state x="-733" y="212" key="NewPhpClassDialog/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591817669253" />
-    <state x="167" y="186" key="Vcs.Push.Dialog.v2" timestamp="1595712543722">
+    <state x="167" y="186" key="Vcs.Push.Dialog.v2" timestamp="1595757726039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-948" y="128" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591863812203" />
-    <state x="167" y="186" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595712543722" />
+    <state x="167" y="186" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595757726039" />
     <state x="359" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1595523444292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -405,5 +408,16 @@
       <screen x="-1080" y="-526" width="1080" height="1880" />
     </state>
     <state x="-919" y="-65" width="758" height="957" key="find.popup/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591819960173" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/templates/front/index.html.twig</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
