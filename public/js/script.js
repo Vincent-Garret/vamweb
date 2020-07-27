@@ -79,7 +79,7 @@ mainPos = findPos(main);
 
 window.onscroll = function colorChange(){
     const link = document.getElementsByClassName('change');
-    const strip = document.getElemengtById('strip');
+    const strip = document.getElementById('strip');
     const burger = document.getElementById('burger');
     const before = document.getElementById('before');
     const after = document.getElementById('after');

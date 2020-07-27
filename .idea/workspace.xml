@@ -4,7 +4,6 @@
     <list default="true" id="eeefc73c-a9c8-443d-858b-e083e3af0709" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +183,7 @@
       <workItem from="1594913963973" duration="53772000" />
       <workItem from="1595430199876" duration="6274000" />
       <workItem from="1595523425438" duration="34144000" />
-      <workItem from="1595792073464" duration="9349000" />
+      <workItem from="1595792073464" duration="9652000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1591863733957</created>
@@ -452,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595873502962</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="txt">
+      <created>1595874996714</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1595874996714</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +478,8 @@
     <MESSAGE value="img" />
     <MESSAGE value="hta" />
     <MESSAGE value="mailer" />
-    <option name="LAST_COMMIT_MESSAGE" value="mailer" />
+    <MESSAGE value="txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="txt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="384" y="154" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595862907149">
@@ -483,11 +490,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595259604547" />
-    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1595873501179">
+    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1595874994875">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-917" y="-78" key="CommitChangelistDialog2/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591863804618" />
-    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595873501179" />
+    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1595874994875" />
     <state x="405" y="238" key="FileChooserDialogImpl" timestamp="1595259217083">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -502,11 +509,11 @@
       <screen x="-1080" y="-526" width="1080" height="1880" />
     </state>
     <state x="-733" y="212" key="NewPhpClassDialog/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591817669253" />
-    <state x="167" y="186" key="Vcs.Push.Dialog.v2" timestamp="1595873505100">
+    <state x="167" y="186" key="Vcs.Push.Dialog.v2" timestamp="1595875009258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-948" y="128" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1080.-526.1080.1880@-1080.-526.1080.1880" timestamp="1591863812203" />
-    <state x="167" y="186" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595873505100" />
+    <state x="167" y="186" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595875009258" />
     <state x="359" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1595792080852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
