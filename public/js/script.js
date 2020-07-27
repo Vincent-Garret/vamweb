@@ -72,8 +72,6 @@ function findPos(elem) {
     let box = elem.getBoundingClientRect(),
         offset   = box.top;
 
-    alert('Element is ' + offset + ' vertical pixels from <body>');
-    console.log(offset);
     return offset - 70;
 }
 
