@@ -15,7 +15,7 @@ use Symfony\Component\HttpFoundation\Request;
 class HomeController extends AbstractController
 {
     /**
-     * @Route("/home", name="home")
+     * @Route("/", name="home")
      * @param Request $request
      * @param EntityManagerInterface $entityManager
      * @param ContactRepository $contactRepository
