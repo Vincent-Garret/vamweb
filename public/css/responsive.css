@@ -26,6 +26,12 @@
     .modal li, .modal a {
         padding: 10% 0!important;
     }
+    .open-legal{
+        display: block!important;
+        left: 5%!important;
+        width: 80%!important;
+        height: 60%!important;
+    }
 }
 
 @media only screen and (max-width: 259px) {
