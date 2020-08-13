@@ -23,9 +23,11 @@
     .strip{
         height: 14vh!important;
     }
-    .modal li, .modal a {
-        padding: 10% 0!important;
+
+    .modal a {
+        padding: 10% !important;
     }
+
     .open-legal{
         display: block!important;
         left: 5%!important;
