@@ -34,6 +34,10 @@
         width: 80%!important;
         height: 60%!important;
     }
+
+    .tel{
+        font-size: 17px ;
+    }
 }
 
 @media only screen and (max-width: 259px) {
